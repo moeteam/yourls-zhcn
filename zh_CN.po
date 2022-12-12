@@ -1,0 +1,1427 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YOURLS 1.9\n"
+"POT-Creation-Date: 2022-04-22 20:19+0200\n"
+"PO-Revision-Date: 2022-12-12 21:41+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
+"yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
+"yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
+"yourls_nx_noop:1,2\n"
+"X-Poedit-Basepath: YOURLS\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: .github\n"
+"X-Poedit-SearchPathExcluded-2: tests\n"
+"X-Poedit-SearchPathExcluded-3: user\n"
+"X-Poedit-SearchPathExcluded-4: css\n"
+"X-Poedit-SearchPathExcluded-5: js\n"
+"X-Poedit-SearchPathExcluded-6: images\n"
+"X-Poedit-SearchPathExcluded-7: includes/vendor\n"
+
+#: admin/index.php:33
+#, php-format
+msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
+msgstr "搜寻关键字: <strong>%1$s</strong>，搜寻范围: <strong>%2$s</strong>。"
+
+#: admin/index.php:161 admin/index.php:172 admin/index.php:183
+#, php-format
+msgid "Short URL created, but could not redirect to %s !"
+msgstr "短网址已建立，但无法重新导向至 %s！"
+
+#: admin/index.php:193
+msgid "Unknown \"Share\" bookmarklet"
+msgstr "未知的 [分享] 书签小工具"
+
+#: admin/index.php:246
+#, php-format
+msgid ""
+"Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
+"of <strong class=\"increment\">%3$s</strong> URLs"
+msgstr ""
+"显示第 <strong>%1$s</strong> 到第 <strong class=\\”increment\\”>%2$s</"
+"strong> \n"
+"个网址，总计 <strong class=\\”increment\\”>%3$s</strong> 个网址"
+
+#: admin/index.php:248
+#, php-format
+msgid "counting <strong>1</strong> click"
+msgid_plural "counting <strong>%s</strong> clicks"
+msgstr[0] "总计 %s 次点击"
+
+#: admin/index.php:251
+#, php-format
+msgid ""
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
+"%2$s</strong> clicks, and counting!"
+msgstr ""
+"合计<strong class=\"increment\">%1$s</strong> 个网址, <strong>%2$s</strong>次"
+"点击数！"
+
+#: admin/index.php:312
+msgid "No URL"
+msgstr "无网址"
+
+#: admin/install.php:13
+msgid "PHP extension for PDO not found"
+msgstr "找不到 PHP 的 PDO 扩充功能"
+
+#: admin/install.php:18 admin/install.php:23
+#, php-format
+msgid "%s version is too old. Ask your server admin for an upgrade."
+msgstr "%s 版本太过老旧。请询问服务器的管理员进行更新。"
+
+#: admin/install.php:29
+msgid "YOURLS already installed."
+msgstr "YOURLS 已经安装。"
+
+#: admin/install.php:40
+msgid "File <tt>.htaccess</tt> successfully created/updated."
+msgstr "<tt>.htaccess</tt>文件已经成功创建/上传。"
+
+#: admin/install.php:42
+msgid ""
+"Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
+"have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
+msgstr ""
+"系统无法在 YOURLS 根目录写入 <tt>.htaccess</tt> 文件，必须手动建立。请参考"
+"<a \n"
+"href=\\”https://yourls.org/htaccess\\” target=\\”_blank\\”>这份文件</a>以解决"
+"问\n"
+"题。"
+
+#: admin/install.php:55 admin/install.php:76
+msgid "Install YOURLS"
+msgstr "安装 YOURLS"
+
+#: admin/install.php:79
+msgid "YOURLS Administration Page"
+msgstr "YOURLS 管理页面"
+
+#: admin/plugins.php:40
+msgid "Unsupported action"
+msgstr "不支持的操作"
+
+#: admin/plugins.php:44
+msgid "No plugin specified, or not a valid plugin"
+msgstr "未指定插件，或插件无效"
+
+#: admin/plugins.php:53
+msgid "Plugin has been activated"
+msgstr "插件已被启用"
+
+#: admin/plugins.php:55
+msgid "Plugin has been deactivated"
+msgstr "插件已被停用"
+
+#: admin/plugins.php:60 includes/functions-html.php:781
+msgid "Manage Plugins"
+msgstr "管理插件"
+
+#: admin/plugins.php:66
+msgid "Plugins"
+msgstr "插件"
+
+#: admin/plugins.php:73
+#, php-format
+msgid "%s plugin"
+msgid_plural "%s plugins"
+msgstr[0] "%s 插件"
+
+#: admin/plugins.php:77
+#, php-format
+msgid ""
+"You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
+"strong> activated"
+msgstr "您当前已安装 <strong>%1$s</strong>，已启用 <strong>%2$s</strong>"
+
+#: admin/plugins.php:82
+msgid "Plugin Name"
+msgstr "插件名称"
+
+#: admin/plugins.php:83
+msgid "Version"
+msgstr "版本"
+
+#: admin/plugins.php:84
+msgid "Description"
+msgstr "描述"
+
+#: admin/plugins.php:85
+msgid "Author"
+msgstr "作者"
+
+#: admin/plugins.php:86
+msgid "Action"
+msgstr "操作"
+
+#: admin/plugins.php:111
+msgid "(no info)"
+msgstr "(无信息)"
+
+#: admin/plugins.php:121
+msgid "Deactivate"
+msgstr "停用"
+
+#: admin/plugins.php:125
+msgid "Activate"
+msgstr "启用"
+
+#: admin/plugins.php:136
+#, php-format
+msgid "plugin file location: %s"
+msgstr "插件文件位置：%s"
+
+#: admin/plugins.php:153
+msgid "Toggle active/inactive plugins"
+msgstr "切换 启用/停用 插件"
+
+#: admin/plugins.php:160
+msgid ""
+"If something goes wrong after you activate a plugin and you cannot use "
+"YOURLS or access this page, simply rename or delete its directory, or rename "
+"the plugin file to something different than <code>plugin.php</code>."
+msgstr ""
+"启用外挂后如果执行时发生错误，导致无法使用 YOURLS 或无法存取这个页面，请直"
+"接\n"
+"重新命名或删除外挂目录，或将外挂档名从 <code>plugin.php</code> 重新命名为其"
+"他\n"
+"档名。"
+
+#: admin/plugins.php:162
+msgid "More plugins"
+msgstr "更多插件"
+
+#: admin/plugins.php:164
+msgid ""
+"For more plugins, head to the official <a href=\"http://yourls.org/awesome"
+"\">Plugin list</a>."
+msgstr ""
+"如需取得更多插件，请前往官方<a href=\\”http://yourls.org/awesome\\” target=\n"
+"\\”_blank\\”>插件清单</a>。"
+
+#: admin/tools.php:6
+msgid "Cool YOURLS Tools"
+msgstr "YOURLS 实用工具"
+
+#: admin/tools.php:13
+msgid "Bookmarklets"
+msgstr "书签小工具"
+
+#: admin/tools.php:15
+msgid ""
+"YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
+"and sharing."
+msgstr ""
+"YOURLS 附带便于使用的<span>书签小工具</span>，让缩短网址及分享网址更加简单。"
+
+#: admin/tools.php:17
+msgid "Standard or Instant, Simple or Custom"
+msgstr "[标准] 或 [即时]、[简易] 或 [自定]"
+
+#: admin/tools.php:20
+msgid ""
+"The <span>Standard Bookmarklets</span> will take you to a page where you can "
+"easily edit or delete your brand new short URL."
+msgstr ""
+"<span>[标准]</span>书签小工具 会开启新页面，让使用者可以编辑或删除\n"
+"专属短网址。"
+
+#: admin/tools.php:22
+msgid ""
+"The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
+"the page you are viewing (depending on the page and server configuration, "
+"they may silently fail)"
+msgstr ""
+"<span>[即时]</span> 书签小工具会开启弹出式窗口，使用者不须离开目前的网页即"
+"可”\n"
+"“缩短网址 (取决于网页和服务器组态，可能会失败不通知)。"
+
+#: admin/tools.php:24
+msgid ""
+"The <span>Simple Bookmarklets</span> will generate a short URL with a random "
+"or sequential keyword."
+msgstr "<span>简单模式书签</span> 将创建一个随机字符的短地址。"
+
+#: admin/tools.php:26
+msgid ""
+"The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
+"keyword first."
+msgstr "<span>[自订]</span> 书签小工具会提示使用者输入自订关键字。"
+
+#: admin/tools.php:30
+msgid ""
+"If you want to share a description along with the link you're shortening, "
+"simply <span>select text</span> on the page you're viewing before clicking "
+"on your bookmarklet link"
+msgstr ""
+"如果分享短网址时希望包含相关说明，请先<span>选取</span>想要分享的页面内容，"
+"然”\n"
+"“后点击书签小工具"
+
+#: admin/tools.php:33
+msgid ""
+"<strong>Important Note:</strong> bookmarklets <span>may fail</span> on "
+"websites with <em>https</em>, especially the \"Instant\" bookrmarklets. "
+"There is nothing you can do about this."
+msgstr ""
+"<strong>重要通知:</strong> 书签小工具在使用 <strong>https</strong> 通讯协定"
+"的\n"
+"网站<strong>可能会失效</strong>，尤其是 [即时] 书签小工具。\n"
+"使用者没有任何方法””可以改善这个状况。"
+
+#: admin/tools.php:35
+msgid "The Bookmarklets"
+msgstr "书签工具"
+
+#: admin/tools.php:39 admin/tools.php:188
+msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
+msgstr "单击链接并将其拖动到工具栏(或右键单击并将其加入书签)"
+
+#: admin/tools.php:45
+msgid "Standard (new page)"
+msgstr "标准 (开启新页面)"
+
+#: admin/tools.php:46
+msgid "Instant (popup)"
+msgstr "即时模式（弹出对话框）"
+
+#: admin/tools.php:51
+msgid "Simple"
+msgstr "简单"
+
+#: admin/tools.php:82
+msgid "Shorten"
+msgstr "缩短"
+
+#: admin/tools.php:107
+msgid "Instant Shorten"
+msgstr "即时缩短"
+
+#: admin/tools.php:113
+msgid "Custom Keyword"
+msgstr "自定义关键字"
+
+#: admin/tools.php:148
+msgid "Custom shorten"
+msgstr "定制缩短"
+
+#: admin/tools.php:176
+msgid "Instant Custom Shorten"
+msgstr "立即自定义缩短"
+
+#: admin/tools.php:185
+msgid "Social Bookmarklets"
+msgstr "社交书签"
+
+#: admin/tools.php:187
+msgid "Create a short URL and share it on social networks, all in one click!"
+msgstr "仅需点击一次，便能建立短网址并将它分享至社交网络上！"
+
+#: admin/tools.php:190
+msgid "Shorten and share:"
+msgstr "缩短并分享网址:"
+
+#: admin/tools.php:215
+msgid "YOURLS &amp; Facebook"
+msgstr "缩短网址并分享至 Faceboo"
+
+#: admin/tools.php:246
+msgid "YOURLS &amp; Twitter"
+msgstr "缩短网址并分享至 Twitter"
+
+#: admin/tools.php:278
+msgid "YOURLS &amp; Tumblr"
+msgstr "缩短网址并分享至 Tumblr"
+
+#: admin/tools.php:285
+msgid "Prefix-n-Shorten"
+msgstr "加入前缀并缩短网址"
+
+#: admin/tools.php:287
+#, php-format
+msgid ""
+"When viewing a page, you can also prefix its full URL: just head to your "
+"browser's address bar, add \"<span>%s</span>\" to the beginning of the "
+"current URL (right before its 'http://' part) and hit enter."
+msgstr ""
+"浏览网页时，可以在浏览器网址的完整网址最前方 (在 https:// 或 http:// 之前) "
+"“\n"
+"加上前缀 <span>%s</span> 并按下 Enter，便能直接产生短网址。"
+
+#: admin/tools.php:290
+msgid ""
+"Note: this will probably not work if your web server is running on Windows"
+msgstr "注意: 如果网页服务器执行于 Windows，这项功能可能无法使用"
+
+#: admin/tools.php:292
+msgid " (which seems to be the case here)"
+msgstr " （看起来就像现在这里的情况）"
+
+#: admin/tools.php:298
+msgid "Secure passwordless API call"
+msgstr "安全的API调用"
+
+#: admin/tools.php:301
+msgid ""
+"YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
+"<tt>password</tt> parameters."
+msgstr ""
+"YOURLS 允许使用 <tt>username</tt> 及 <tt>password</tt> 参数这种传统方式呼叫\n"
+"API。"
+
+#: admin/tools.php:303
+msgid ""
+"If you're worried about sending your credentials into the wild, you can also "
+"make API calls without using your login or your password, using a secret "
+"signature token."
+msgstr ""
+"如果您担心这有潜在风险，您可以不使用您的用户名和密码进行API调用，而使用“秘密"
+"签名令牌”。"
+
+#: admin/tools.php:306
+#, php-format
+msgid "Your secret signature token: <strong><code>%s</code></strong>"
+msgstr "这个网站的签名令牌: <strong><code> %s </code></strong>"
+
+#: admin/tools.php:307
+msgid "(It's a secret. Keep it secret) "
+msgstr "（请保存好，勿泄露）"
+
+#: admin/tools.php:309
+msgid ""
+"This signature token can only be used with the API, not with the admin "
+"interface."
+msgstr "这个签名令牌仅能用于呼叫 API，不能用于管理页面。"
+
+#: admin/tools.php:312
+msgid "Usage of the signature token"
+msgstr "使用 signature token"
+
+#: admin/tools.php:313
+msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
+msgstr "在 API 要求中直接使用 <tt>signature</tt> 参数，范例:"
+
+#: admin/tools.php:317
+msgid "Usage of a time limited signature token"
+msgstr "限时签名令牌的使用方式"
+
+#: admin/tools.php:320 admin/tools.php:322
+msgid "actual value:"
+msgstr "实际值:"
+
+#: admin/tools.php:325
+msgid ""
+"Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
+"requests. Example:"
+msgstr "在 API 要求中使用 <tt>signature</tt> 及 <tt>timestamp</tt> 参数，范例:"
+
+#: admin/tools.php:327
+msgid "Actual values:"
+msgstr "实际值:"
+
+#: admin/tools.php:329
+#, php-format
+msgid "This URL would be valid for only %s seconds"
+msgstr "这个URL的有效期为 %s 秒"
+
+#: admin/tools.php:333
+#, php-format
+msgid "See the <a href=\"%s\">Passwordless API</a> page on the wiki."
+msgstr ""
+"请参考Wiki 的〈<a href=\\”%s\\” target=\\”_blank\\”>Passwordless API</“\n"
+"“a>〉页面。"
+
+#: admin/tools.php:334
+#, php-format
+msgid "See the <a href=\"%s\">API documentation</a> for more"
+msgstr "如需进一步了解，请参考 <a href=\\”%s\\”>API 说明文件</a>"
+
+#: admin/upgrade.php:9 admin/upgrade.php:13
+msgid "Upgrade YOURLS"
+msgstr "升级 YOURLS"
+
+#: admin/upgrade.php:18
+#, php-format
+msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
+msgstr "无需升级，请返回 [<a href=\\” %s \\”>管理页面</a>]"
+
+#: admin/upgrade.php:51
+msgid "Your current installation needs to be upgraded."
+msgstr "这个网站的 YOURLS 必须升级。"
+
+#: admin/upgrade.php:52
+msgid ""
+"Please, pretty please, it is recommended that you <strong>backup</strong> "
+"your database<br/>(you should do this regularly anyway)"
+msgstr ""
+"强烈建议现在就<strong>备份</strong>网站资料库。<br/>(请定期进行网站及资料库"
+"备\n"
+"份)"
+
+#: admin/upgrade.php:53
+msgid ""
+"Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
+"em> happen, right? ;)"
+msgstr "不怕一万，只怕万一！"
+
+#: admin/upgrade.php:54
+msgid ""
+"On every step, if <span class='error'>something goes wrong</span>, you'll "
+"see a message and hopefully a way to fix."
+msgstr ""
+"在每一步骤中，如果<span class=‘error’>执行发生错误</span>，便会显示能协助使"
+"用\n"
+"者修正问题的信息。"
+
+#: admin/upgrade.php:55
+msgid ""
+"If everything goes too fast and you cannot read, <span class=\"success"
+"\">good for you</span>, let it go :)"
+msgstr ""
+"如果进展顺利，甚至来不及阅读相关讯息，<span class=\\”success\\”>那就太好了"
+"</\n"
+"span>，不必在意。"
+
+#: admin/upgrade.php:56
+msgid "Once you are ready, press \"Upgrade\" !"
+msgstr "准备就绪后，请点击 [升级]！"
+
+#: admin/upgrade.php:65
+msgid "Upgrade"
+msgstr "升级"
+
+#: admin/upgrade.php:77
+msgid "Your installation is now up to date ! "
+msgstr "你的安装版本已经是最新版了！ "
+
+#: admin/upgrade.php:78
+#, php-format
+msgid "Go back to <a href=\"%s\">the admin interface</a>"
+msgstr "返回 [<a href=\\”%s\\”>管理页面</a>]"
+
+#: includes/Database/YDB.php:165
+msgid "Incorrect DB config, or could not connect to DB"
+msgstr "数据库配置不正确，或无法连接到数据库"
+
+#: includes/Database/YDB.php:168 includes/class-mysql.php:16
+msgid "Fatal error"
+msgstr "致命错误"
+
+#: includes/Views/AdminParams.php:59 includes/functions-html.php:239
+msgid "All fields"
+msgstr "所有字段"
+
+#: includes/Views/AdminParams.php:60 includes/functions-html.php:240
+#: includes/functions-html.php:252 includes/functions-html.php:512
+#: includes/functions-html.php:650 yourls-infos.php:219
+msgid "Short URL"
+msgstr "短网址"
+
+#: includes/Views/AdminParams.php:61 includes/functions-html.php:241
+#: includes/functions-html.php:253
+msgid "URL"
+msgstr "URL"
+
+#: includes/Views/AdminParams.php:62 includes/functions-html.php:242
+#: includes/functions-html.php:254 includes/functions-html.php:512
+msgid "Title"
+msgstr "标题"
+
+#: includes/Views/AdminParams.php:63
+msgid "IP Address"
+msgstr "IP 地址"
+
+#: includes/Views/AdminParams.php:64 includes/functions-html.php:255
+#: includes/functions-html.php:652
+msgid "Date"
+msgstr "日期"
+
+#: includes/Views/AdminParams.php:65 includes/functions-html.php:257
+#: includes/functions-html.php:654
+msgid "Clicks"
+msgstr "点击"
+
+#: includes/auth.php:53
+#, php-format
+msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
+msgstr "无法自动为密码加密。错误: %s。"
+
+#: includes/auth.php:55
+#, php-format
+msgid "<a href=\"%s\">Get help</a>."
+msgstr "<a href=\\”%s\\” target=\\”_blank\\”>取得说明</a>。"
+
+#: includes/auth.php:57
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
+msgstr "点击<a href=\\”%s\\”>这里</a>便能关闭这项信息一周。"
+
+#: includes/class-mysql.php:16
+msgid "Incorrect DB config, please refer to documentation"
+msgstr "数据库配置不正确，请参阅文档"
+
+#: includes/functions-auth.php:41
+msgid "Logged out successfully"
+msgstr "注销成功"
+
+#: includes/functions-auth.php:118
+msgid "Invalid username or password"
+msgstr "无效的用户名或密码"
+
+#: includes/functions-auth.php:120
+msgid "Please log in"
+msgstr "请登录"
+
+#: includes/functions-auth.php:663
+msgid "Unauthorized action or expired link"
+msgstr "未经授权的操作或过期链接"
+
+#: includes/functions-auth.php:663
+msgid "Error"
+msgstr "错误"
+
+#: includes/functions-html.php:145
+#, php-format
+msgid "1 query"
+msgid_plural "%s queries"
+msgstr[0] "%s 次查询"
+
+#: includes/functions-html.php:154
+#, php-format
+msgid "Powered by %s"
+msgstr "技术支持 %s"
+
+#: includes/functions-html.php:187
+msgid "Enter the URL"
+msgstr "输入网址"
+
+#: includes/functions-html.php:189
+msgid "Optional "
+msgstr "可选 "
+
+#: includes/functions-html.php:189
+msgid "Custom short URL"
+msgstr "自定义别名"
+
+#: includes/functions-html.php:192
+msgid "Shorten The URL"
+msgstr "缩短网址"
+
+#: includes/functions-html.php:237
+msgid "Search for"
+msgstr "搜索"
+
+#: includes/functions-html.php:243 includes/functions-html.php:256
+#: includes/functions-html.php:653
+msgid "IP"
+msgstr "IP"
+
+#: includes/functions-html.php:245
+msgid "Search in"
+msgstr "搜索于"
+
+#: includes/functions-html.php:247
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "搜索范围: %2$s - 关键词 %1$s"
+
+#: includes/functions-html.php:259
+msgid "Sort by"
+msgstr "排序方式"
+
+#: includes/functions-html.php:262
+msgid "Ascending"
+msgstr "升序"
+
+#: includes/functions-html.php:263
+msgid "Descending"
+msgstr "降序"
+
+#: includes/functions-html.php:265
+msgid "Sort order"
+msgstr "排序顺序"
+
+#: includes/functions-html.php:267
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "排序方式: %1$s %2$s 排列"
+
+#: includes/functions-html.php:272
+msgid "Number of rows to show"
+msgstr "显示结果数量"
+
+#: includes/functions-html.php:273
+#, php-format
+msgid "Show %s rows"
+msgstr "显示 %s 行"
+
+#: includes/functions-html.php:278
+msgid "more"
+msgstr "更多"
+
+#: includes/functions-html.php:279
+msgid "less"
+msgstr "更少"
+
+#: includes/functions-html.php:281
+msgid "Show links with"
+msgstr "显示链接是"
+
+#: includes/functions-html.php:282
+msgid "Number of clicks"
+msgstr "点击量"
+
+#: includes/functions-html.php:284
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "显示点击次数 %1$s %2$s 次的网址"
+
+#: includes/functions-html.php:289
+msgid "before"
+msgstr "之前"
+
+#: includes/functions-html.php:290
+msgid "after"
+msgstr "之后"
+
+#: includes/functions-html.php:291
+msgid "between"
+msgstr "之间"
+
+#: includes/functions-html.php:293
+msgid "Show links created"
+msgstr "显示短网址建立日期"
+
+#: includes/functions-html.php:294
+msgid "Select a date"
+msgstr "选择日期"
+
+#: includes/functions-html.php:296
+msgid "Select an end date"
+msgstr "选择结束日期"
+
+#: includes/functions-html.php:298
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "显示 %1$s 创建于 %2$s %3$s %4$s 的链接"
+
+#: includes/functions-html.php:302
+msgid "Search"
+msgstr "搜索"
+
+#: includes/functions-html.php:304
+msgid "Clear"
+msgstr "清除"
+
+#: includes/functions-html.php:324
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] "%s 个页面"
+
+#: includes/functions-html.php:332
+msgid "Go to First Page"
+msgstr "转到首页"
+
+#: includes/functions-html.php:332
+msgid "&laquo; First"
+msgstr "&laquo; 首页"
+
+#: includes/functions-html.php:346
+msgid "Go to Last Page"
+msgstr "转到最后一页"
+
+#: includes/functions-html.php:346
+msgid "Last &raquo;"
+msgstr "尾页 &raquo;"
+
+#: includes/functions-html.php:393
+msgid "Your short link"
+msgstr "您的短链接"
+
+#: includes/functions-html.php:395 yourls-infos.php:550
+msgid "Quick Share"
+msgstr "快速分享"
+
+#: includes/functions-html.php:427
+msgid "Long link"
+msgstr "长链接"
+
+#: includes/functions-html.php:429 includes/functions-html.php:547
+#: includes/functions-html.php:548
+msgid "Stats"
+msgstr "统计"
+
+#: includes/functions-html.php:443
+msgid "Share with"
+msgstr "分享到"
+
+#: includes/functions-html.php:444
+msgid "Tweet this!"
+msgstr "分享至 Twitter!"
+
+#: includes/functions-html.php:445
+msgid "Share on Facebook"
+msgstr "分享到 Facebook"
+
+#: includes/functions-html.php:512 yourls-infos.php:237
+msgid "Long URL"
+msgstr "长网址"
+
+#: includes/functions-html.php:512
+msgid "Save"
+msgstr "保存"
+
+#: includes/functions-html.php:512
+msgid "Save new values"
+msgstr "保存新值"
+
+#: includes/functions-html.php:512
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/functions-html.php:512
+msgid "Cancel editing"
+msgstr "取消编辑"
+
+#: includes/functions-html.php:514
+msgid "Error, URL not found"
+msgstr "发生错误，找不到符合条件的网址"
+
+#: includes/functions-html.php:553 includes/functions-html.php:554
+#: yourls-infos.php:247 yourls-infos.php:548
+msgid "Share"
+msgstr "分享"
+
+#: includes/functions-html.php:560 includes/functions-html.php:561
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/functions-html.php:567 includes/functions-html.php:568
+msgid "Delete"
+msgstr "删除"
+
+#: includes/functions-html.php:589
+msgid "Not a common link"
+msgstr "不常用网址"
+
+#: includes/functions-html.php:651
+msgid "Original URL"
+msgstr "原链接地址"
+
+#: includes/functions-html.php:655
+msgid "Actions"
+msgstr "操作"
+
+#: includes/functions-html.php:722
+msgid "Username"
+msgstr "用户名"
+
+#: includes/functions-html.php:726
+msgid "Password"
+msgstr "密码"
+
+#: includes/functions-html.php:734
+msgid "Login"
+msgstr "登录"
+
+#: includes/functions-html.php:759
+#, php-format
+msgid "Hello <strong>%s</strong>"
+msgstr "<strong>%s</strong>，你好"
+
+#: includes/functions-html.php:759
+msgid "Logout"
+msgstr "注销"
+
+#: includes/functions-html.php:763
+msgid "Help"
+msgstr "帮助"
+
+#: includes/functions-html.php:770
+msgid "Go to the admin interface"
+msgstr "前往 [管理员界面]"
+
+#: includes/functions-html.php:771
+msgid "Admin interface"
+msgstr "管理员界面"
+
+#: includes/functions-html.php:777
+msgid "Tools"
+msgstr "工具"
+
+#: includes/functions-html.php:861
+#, php-format
+msgid "Page \"%1$s\" not found"
+msgstr "%1$s 找不到页面"
+
+#: includes/functions-html.php:861
+msgid "Not found"
+msgstr "未找到"
+
+#: includes/functions-html.php:907 includes/functions-html.php:912
+msgid "Today"
+msgstr "今天"
+
+#: includes/functions-html.php:908 includes/functions-html.php:913
+msgid "Close"
+msgstr "关闭"
+
+#: includes/functions-html.php:931
+#, php-format
+msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
+msgstr ""
+"<a href=\\”%s\\” target=\\”_blank\\”>YOURLS %s 版</a>已发布，请立即更新！"
+
+#: includes/functions-html.php:946
+msgid "Drag to your toolbar!"
+msgstr "拖到您的工具栏上！"
+
+#: includes/functions-install.php:258
+#, php-format
+msgid "Table '%s' created."
+msgstr "资料表 %s 已建立。"
+
+#: includes/functions-install.php:260
+#, php-format
+msgid "Error creating table '%s'."
+msgstr "建立资料表 %s 时发生错误。"
+
+#: includes/functions-install.php:266
+msgid "Could not initialize options"
+msgstr "无法初始化选项"
+
+#: includes/functions-install.php:270
+msgid "Could not insert sample short URLs"
+msgstr "无法插入示例短URL"
+
+#: includes/functions-install.php:274
+msgid "YOURLS tables successfully created."
+msgstr "YOURLS 数据表已经成功创建。"
+
+#: includes/functions-install.php:276
+msgid "Error creating YOURLS tables."
+msgstr "建立 YOURLS 的资料表时发生错误。"
+
+#: includes/functions-l10n.php:749 includes/functions-l10n.php:759
+#: includes/functions-l10n.php:772
+msgid "Sunday"
+msgstr "星期日"
+
+#: includes/functions-l10n.php:750 includes/functions-l10n.php:760
+#: includes/functions-l10n.php:773
+msgid "Monday"
+msgstr "星期一"
+
+#: includes/functions-l10n.php:751 includes/functions-l10n.php:761
+#: includes/functions-l10n.php:774
+msgid "Tuesday"
+msgstr "星期二"
+
+#: includes/functions-l10n.php:752 includes/functions-l10n.php:762
+#: includes/functions-l10n.php:775
+msgid "Wednesday"
+msgstr "星期三"
+
+#: includes/functions-l10n.php:753 includes/functions-l10n.php:763
+#: includes/functions-l10n.php:776
+msgid "Thursday"
+msgstr "星期四"
+
+#: includes/functions-l10n.php:754 includes/functions-l10n.php:764
+#: includes/functions-l10n.php:777
+msgid "Friday"
+msgstr "星期五"
+
+#: includes/functions-l10n.php:755 includes/functions-l10n.php:765
+#: includes/functions-l10n.php:778
+msgid "Saturday"
+msgstr "星期六"
+
+#: includes/functions-l10n.php:759
+msgid "S_Sunday_initial"
+msgstr "日"
+
+#: includes/functions-l10n.php:760
+msgid "M_Monday_initial"
+msgstr "一"
+
+#: includes/functions-l10n.php:761
+msgid "T_Tuesday_initial"
+msgstr "二"
+
+#: includes/functions-l10n.php:762
+msgid "W_Wednesday_initial"
+msgstr "三"
+
+#: includes/functions-l10n.php:763
+msgid "T_Thursday_initial"
+msgstr "四"
+
+#: includes/functions-l10n.php:764
+msgid "F_Friday_initial"
+msgstr "五"
+
+#: includes/functions-l10n.php:765
+msgid "S_Saturday_initial"
+msgstr "六"
+
+#: includes/functions-l10n.php:772
+msgid "Sun"
+msgstr "星期日"
+
+#: includes/functions-l10n.php:773
+msgid "Mon"
+msgstr "星期一"
+
+#: includes/functions-l10n.php:774
+msgid "Tue"
+msgstr "星期二"
+
+#: includes/functions-l10n.php:775
+msgid "Wed"
+msgstr "星期三"
+
+#: includes/functions-l10n.php:776
+msgid "Thu"
+msgstr "星期四"
+
+#: includes/functions-l10n.php:777
+msgid "Fri"
+msgstr "星期五"
+
+#: includes/functions-l10n.php:778
+msgid "Sat"
+msgstr "星期六"
+
+#: includes/functions-l10n.php:781 includes/functions-l10n.php:796
+msgid "January"
+msgstr "一月"
+
+#: includes/functions-l10n.php:782 includes/functions-l10n.php:797
+msgid "February"
+msgstr "二月"
+
+#: includes/functions-l10n.php:783 includes/functions-l10n.php:798
+msgid "March"
+msgstr "三月"
+
+#: includes/functions-l10n.php:784 includes/functions-l10n.php:799
+msgid "April"
+msgstr "四月"
+
+#: includes/functions-l10n.php:785 includes/functions-l10n.php:800
+msgid "May"
+msgstr "五月"
+
+#: includes/functions-l10n.php:786 includes/functions-l10n.php:801
+msgid "June"
+msgstr "六月"
+
+#: includes/functions-l10n.php:787 includes/functions-l10n.php:802
+msgid "July"
+msgstr "七月"
+
+#: includes/functions-l10n.php:788 includes/functions-l10n.php:803
+msgid "August"
+msgstr "八月"
+
+#: includes/functions-l10n.php:789 includes/functions-l10n.php:804
+msgid "September"
+msgstr "九月"
+
+#: includes/functions-l10n.php:790 includes/functions-l10n.php:805
+msgid "October"
+msgstr "十月"
+
+#: includes/functions-l10n.php:791 includes/functions-l10n.php:806
+msgid "November"
+msgstr "十一月"
+
+#: includes/functions-l10n.php:792 includes/functions-l10n.php:807
+msgid "December"
+msgstr "十二月"
+
+#: includes/functions-l10n.php:796
+msgid "Jan_January_abbreviation"
+msgstr "1月"
+
+#: includes/functions-l10n.php:797
+msgid "Feb_February_abbreviation"
+msgstr "2月"
+
+#: includes/functions-l10n.php:798
+msgid "Mar_March_abbreviation"
+msgstr "3月"
+
+#: includes/functions-l10n.php:799
+msgid "Apr_April_abbreviation"
+msgstr "4月"
+
+#: includes/functions-l10n.php:800
+msgid "May_May_abbreviation"
+msgstr "5月"
+
+#: includes/functions-l10n.php:801
+msgid "Jun_June_abbreviation"
+msgstr "6月"
+
+#: includes/functions-l10n.php:802
+msgid "Jul_July_abbreviation"
+msgstr "7月"
+
+#: includes/functions-l10n.php:803
+msgid "Aug_August_abbreviation"
+msgstr "8月"
+
+#: includes/functions-l10n.php:804
+msgid "Sep_September_abbreviation"
+msgstr "9月"
+
+#: includes/functions-l10n.php:805
+msgid "Oct_October_abbreviation"
+msgstr "10月"
+
+#: includes/functions-l10n.php:806
+msgid "Nov_November_abbreviation"
+msgstr "11月"
+
+#: includes/functions-l10n.php:807
+msgid "Dec_December_abbreviation"
+msgstr "12月"
+
+#: includes/functions-l10n.php:814
+msgid "am"
+msgstr "上午"
+
+#: includes/functions-l10n.php:815
+msgid "pm"
+msgstr "下午"
+
+#: includes/functions-l10n.php:816
+msgid "AM"
+msgstr "上午"
+
+#: includes/functions-l10n.php:817
+msgid "PM"
+msgstr "下午"
+
+#: includes/functions-l10n.php:823
+msgid "number_format_thousands_sep"
+msgstr "数量_格式_分离"
+
+#: includes/functions-l10n.php:827
+msgid "number_format_decimal_point"
+msgstr "十进制小数点格式"
+
+#: includes/functions-l10n.php:834
+msgid "ltr"
+msgstr "从左到右"
+
+#: includes/functions-plugins.php:618
+msgid "Could not find and deactivate plugin :"
+msgid_plural "Could not find and deactivate plugins :"
+msgstr[0] "无法找到并停用的插件:"
+
+#: includes/functions-plugins.php:658
+msgid "Not a valid plugin file"
+msgstr "无效的插件文件"
+
+#: includes/functions-plugins.php:664
+msgid "Plugin already activated"
+msgstr "插件已激活"
+
+#: includes/functions-plugins.php:670 includes/functions-plugins.php:719
+#, php-format
+msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
+msgstr "插件产生未预期的输出。错误: <br/><pre>%s</pre>"
+
+#: includes/functions-plugins.php:710
+msgid "Plugin not active"
+msgstr "插件未激活"
+
+#: includes/functions-plugins.php:804
+msgid ""
+"This page does not exist. Maybe a plugin you thought was activated is "
+"inactive?"
+msgstr "这个页面不存在。插件是否尚未激活？"
+
+#: includes/functions-plugins.php:804
+msgid "Invalid link"
+msgstr "无效链接"
+
+#: includes/functions-plugins.php:810
+msgid ""
+"This page cannot be displayed because the displaying function is not "
+"callable."
+msgstr "无法显示此页面，因为显示函数不可调用。"
+
+#: includes/functions-plugins.php:810
+msgid "Invalid code"
+msgstr "无效代码"
+
+#: includes/functions-shorturls.php:55
+msgid "Missing or malformed URL"
+msgstr "遗失或格式错误的网址"
+
+#: includes/functions-shorturls.php:69
+msgid "URL is a short URL"
+msgstr "网址已是短网址"
+
+#: includes/functions-shorturls.php:83
+#, php-format
+msgid "%s already exists in database (short URL: %s)"
+msgstr "%s 已存在于数据库 (短网址: %s)"
+
+#: includes/functions-shorturls.php:110
+#, php-format
+msgid "Short URL %s already exists in database or is reserved"
+msgstr "短网址 %s 已存在于资料库中或为保留项目"
+
+#: includes/functions-shorturls.php:140
+#, php-format
+msgid "%s added to database"
+msgstr "%s 已新增至数据库"
+
+#: includes/functions-shorturls.php:149
+msgid "Error saving url to database"
+msgstr "网址储存至数据库发生错误"
+
+#: includes/functions-shorturls.php:324
+msgid "Long URL or Short URL cannot be blank"
+msgstr "原始网址或短网址不能留空"
+
+#: includes/functions-shorturls.php:360
+msgid "Link updated in database"
+msgstr "网址已于数据库中完成更新"
+
+#: includes/functions-shorturls.php:363
+#, php-format
+msgid "Error updating %s (Short URL: %s)"
+msgstr "更新 %s 时发生错误 (短网址: %s )"
+
+#: includes/functions-shorturls.php:369
+msgid "URL or keyword already exists in database"
+msgstr "网址或关键字已存在于数据库中"
+
+#: includes/functions.php:372
+#, php-format
+msgid ""
+"if you are not redirected after 10 seconds, please <a href=\"%s\">click "
+"here</a>"
+msgstr "如果 10 秒后没有完成重新导向，请点击<a href=\\”%s\\”>这里</a>”"
+
+#: includes/functions.php:381
+#, php-format
+msgid "Please <a href=\"%s\">click here</a>"
+msgstr "请点击<a href=\\”%s\\”>这里</a>"
+
+#: includes/functions.php:630
+msgid "Too many URLs added too fast. Slow down please."
+msgstr "太多的链接，请慢一些。"
+
+#: includes/functions.php:630
+msgid "Too Many Requests"
+msgstr "太多请求"
+
+#: includes/functions.php:1057
+msgid "Service temporarily unavailable"
+msgstr "服务暂时不可用"
+
+#: includes/functions.php:1058
+msgid "Our service is currently undergoing scheduled maintenance."
+msgstr "这个网站的服务目前正在进行定期维护。"
+
+#: includes/functions.php:1059
+msgid ""
+"Things should not last very long, thank you for your patience and please "
+"excuse the inconvenience"
+msgstr ""
+"维护工作不会持续太久，感谢你的耐心等候，我们同时也为带来的不便致上最深的歉意"
+
+#: includes/functions.php:1185
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr ""
+"从 %2$s 版本开始， %1$s 已经<strong>不再使用</strong>！请使用 %3$s 代替。"
+
+#: includes/functions.php:1187
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
+"available."
+msgstr ""
+"从 %2$s 版本开始，%1$s 已经<strong>不再使用</strong>，目前暂无代替的方法。"
+
+#: yourls-infos.php:212
+#, php-format
+msgid "Statistics for %s"
+msgstr "数据统计 %s"
+
+#: yourls-infos.php:235
+msgid "Aggregate stats for duplicate short URLs"
+msgstr "汇总统计重复的短网址"
+
+#: yourls-infos.php:243 yourls-infos.php:254
+msgid "Traffic statistics"
+msgstr "流量统计"
+
+#: yourls-infos.php:244 yourls-infos.php:441
+msgid "Traffic location"
+msgstr "流量地点"
+
+#: yourls-infos.php:245 yourls-infos.php:478
+msgid "Traffic sources"
+msgstr "流量来源"
+
+#: yourls-infos.php:262 yourls-infos.php:302
+msgid "Last 24 hours"
+msgstr "最近24小时"
+
+#: yourls-infos.php:263 yourls-infos.php:304
+msgid "Last 7 days"
+msgstr "最近7天"
+
+#: yourls-infos.php:264 yourls-infos.php:306
+msgid "Last 30 days"
+msgstr "最近30天"
+
+#: yourls-infos.php:265 yourls-infos.php:308
+msgid "All time"
+msgstr "所有时间"
+
+#: yourls-infos.php:317
+#, php-format
+msgid "Number of hits : %s"
+msgstr "点击次数： %s"
+
+#: yourls-infos.php:340
+msgid "Historical click count"
+msgstr "历史点击次数"
+
+#: yourls-infos.php:347
+#, php-format
+msgid "about 1 day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "大约 %s 天"
+
+#: yourls-infos.php:350
+#, php-format
+msgid "Short URL created on %s"
+msgstr "短网址建立时间: %s"
+
+#: yourls-infos.php:365 yourls-infos.php:372
+#, php-format
+msgid "%s per day"
+msgstr "%s 每天"
+
+#: yourls-infos.php:368
+#, php-format
+msgid "%s per hour"
+msgstr "%s 每小时"
+
+#: yourls-infos.php:375
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "%s 点击"
+
+#: yourls-infos.php:382
+msgid "Best day"
+msgstr "单日最高点击次数"
+
+#: yourls-infos.php:389
+#, php-format
+msgid "<strong>%1$s</strong> hit on %2$s"
+msgid_plural "<strong>%1$s</strong> hits on %2$s"
+msgstr[0] "%2$s 产生 <strong>%1$s</strong> 次点击"
+
+#: yourls-infos.php:390 yourls-infos.php:452
+msgid "Click for more details"
+msgstr "点击查看更多详情"
+
+#: yourls-infos.php:396 yourls-infos.php:399
+#, php-format
+msgid "Year %s"
+msgstr "%s 年"
+
+#: yourls-infos.php:418 yourls-infos.php:456
+#, php-format
+msgid "1 hit"
+msgid_plural "%s hits"
+msgstr[0] "%s 点击"
+
+#: yourls-infos.php:435
+msgid "No traffic yet. Get some clicks first!"
+msgstr "暂无流量，先点几次吧！"
+
+#: yourls-infos.php:450
+msgid "Top 5 countries"
+msgstr "前 5 名的国家/地区"
+
+#: yourls-infos.php:463
+msgid "Overall traffic"
+msgstr "整体流量"
+
+#: yourls-infos.php:472
+msgid "No country data."
+msgstr "暂无国家/地区资料。"
+
+#: yourls-infos.php:487
+msgid "Referrer shares"
+msgstr "引荐来源"
+
+#: yourls-infos.php:490 yourls-infos.php:492
+msgid "Others"
+msgstr "其他"
+
+#: yourls-infos.php:494 yourls-infos.php:527
+msgid "Referrers"
+msgstr "引荐"
+
+#: yourls-infos.php:501 yourls-infos.php:511
+msgid "(details)"
+msgstr "(详细)"
+
+#: yourls-infos.php:511
+msgid "Various:"
+msgstr "其它:"
+
+#: yourls-infos.php:525
+msgid "Direct vs Referrer Traffic"
+msgstr "直接流量与参照流量的比较"
+
+#: yourls-infos.php:527
+msgid "Direct"
+msgstr "直接访问"
+
+#: yourls-infos.php:529
+msgid "Direct traffic:"
+msgstr "直接访问流量："
+
+#: yourls-infos.php:529 yourls-infos.php:530
+#, php-format
+msgid "<strong>%s</strong> hit"
+msgid_plural "<strong>%s</strong> hits"
+msgstr[0] "<strong>%s</strong> 点击"
+
+#: yourls-infos.php:530
+msgid "Referrer traffic:"
+msgstr "引荐流量："
+
+#: yourls-infos.php:539
+msgid "No referrer data."
+msgstr "无参照资料。"
+
+#: yourls-infos.php:550
+msgid "Short link"
+msgstr "短网址"
